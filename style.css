@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-items: center;
+    align-items: center;
+    height: 100vw;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(234, 234, 255);
+}
+
+.header{
+    background-color: rgb(255, 255, 255);
+    font-size: 50px;
+    padding: 10px;
+    border-bottom: 2px solid #939393;
+}
+
+.titulo{
+    color: blue;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.kenzie_logo{
+    position: absolute;
+}
+
+.principal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+
+.princ-art{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 700px;
+    border-radius: 20px;
+    margin-bottom: 3%;
+}
+
+.img-article1{
+    background-image: url(https://i0.wp.com/kenzie.com.br/blog/wp-content/uploads/2022/07/Foto8.png?fit=640%2C228&ssl=1);
+}
+
+.img-article2{
+    background-image: url(https://i0.wp.com/kenzie.com.br/blog/wp-content/uploads/2022/07/Foto1.png?fit=640%2C228&ssl=1);
+}
+
+.img-article3{
+    background-image: url(https://i0.wp.com/kenzie.com.br/blog/wp-content/uploads/2022/07/Foto11.png?fit=640%2C228&ssl=1);
+}
+
+.img-article4{
+    background-image: url(https://i0.wp.com/kenzie.com.br/blog/wp-content/uploads/2022/07/Foto4.png?fit=640%2C228&ssl=1);
+}
+
+.img-article1{
+    background-image: url(https://i0.wp.com/kenzie.com.br/blog/wp-content/uploads/2022/07/Foto8.png?fit=640%2C228&ssl=1);
+}
+
+.text_article{
+    color: white;
+    font-size: 20px;
+    padding: 3%;
+}
+
+.links{
+    font-size: 30px;
+    margin-left: 38%;
+    color: blueviolet;
+}
+
+.section-form{
+    text-align: center;
+    background-color: white;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    border-top: 2px solid #939393;
+}
+
+.form-email{
+    border: none;
+    border-bottom: 2px solid;
+}
+
+.button{
+    background-color: #ccc;
+    display: block;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 10px; 
+    margin-left: 46px;
+}
